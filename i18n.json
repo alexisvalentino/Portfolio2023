@@ -1,0 +1,11 @@
+{
+  "locales": ["en", "fr"],
+  "defaultLocale": "en",
+  "pages": {
+    "/": ["home"],
+    "/about": ["about"],
+    "/skills": ["skills"],
+    "/experience": ["experience"],
+    "/contac": ["contact"]
+  }
+}

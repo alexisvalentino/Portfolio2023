@@ -8,7 +8,11 @@ import { useContext, useEffect, useRef } from "react";
 import { MouseContext } from "../context/mouseContext";
 import useMousePosition from "./../Components/Cursor/UseMousePosition";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function Home() {
+  const { t, lang } = useTranslation("home");
+
   const { cursorChangeHandler } = useContext(MouseContext);
   const { x, y } = useMousePosition();
 
@@ -99,7 +103,7 @@ export default function Home() {
           >
             {" "}
             <motion.h1 variants={item}>
-              HEY, I’M{" "}
+              {t("title")}{" "}
               <span
                 onMouseEnter={() => cursorChangeHandler("hovered")}
                 onMouseLeave={() => cursorChangeHandler("")}
@@ -111,7 +115,7 @@ export default function Home() {
           </div>
           <div style={{ overflow: "hidden" }}>
             <motion.h1 variants={item}>
-              BUT YOU CAN CALL ME{" "}
+              {t("subtitle")}{" "}
               <span
                 onMouseEnter={() => cursorChangeHandler("hovered")}
                 onMouseLeave={() => cursorChangeHandler("")}
@@ -126,9 +130,7 @@ export default function Home() {
               overflow: "hidden",
             }}
           >
-            <motion.p variants={item}>
-              I’m a Front-end Developer & Web Integrator.
-            </motion.p>
+            <motion.p variants={item}>{t("description")}</motion.p>
           </div>
           <motion.h3 variants={item}>
             <Link
@@ -158,7 +160,7 @@ export default function Home() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <span>About me</span>
+              <span>{t("about")}</span>
             </Link>
           </motion.h3>
         </motion.div>

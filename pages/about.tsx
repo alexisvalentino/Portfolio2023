@@ -8,7 +8,11 @@ import { container, item } from "../animation";
 import { useContext } from "react";
 import { MouseContext } from "../context/mouseContext";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function about() {
+  const { t, lang } = useTranslation("about");
+
   const { cursorChangeHandler } = useContext(MouseContext);
 
   const [age, setAge] = useState(0);
@@ -61,7 +65,7 @@ export default function about() {
           transition={{ delay: 0.1, duration: 0.5 }}
         >
           <div className="about-left__title">
-            <h2>About</h2>
+            <h2>{t("title")}</h2>
           </div>
           <p className="about-left__text">
             Hey, my name is Leonel NGOYA but I am much better known as LN. I am
@@ -114,7 +118,7 @@ export default function about() {
                   d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                 />
               </svg>{" "}
-              Resume
+              {t("resume")}
             </a>
             <a
               href="https://testimonial.to/ln-dev/all"
@@ -134,7 +138,7 @@ export default function about() {
                   d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                 />
               </svg>{" "}
-              Testimonials
+              {t("testimonials")}
             </a>
           </div>
         </motion.div>

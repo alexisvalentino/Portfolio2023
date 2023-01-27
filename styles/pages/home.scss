@@ -27,9 +27,9 @@
       left: 50%;
       width: 350px;
       -webkit-filter: grayscale(0);
-              filter: grayscale(0);
+      filter: grayscale(0);
       -o-object-fit: cover;
-         object-fit: cover;
+      object-fit: cover;
       //animation: velo 10s ease infinite;
     }
     @-webkit-keyframes velo {
@@ -72,9 +72,9 @@
       width: 300px;
       transform: rotate(45deg);
       -webkit-filter: grayscale(0);
-              filter: grayscale(0);
+      filter: grayscale(0);
       -o-object-fit: cover;
-         object-fit: cover;
+      object-fit: cover;
       @media only screen and (max-width: 640px) {
         display: none;
       }
@@ -116,6 +116,7 @@
       line-height: 1;
       font-weight: 700;
       color: transparent;
+      text-transform: uppercase;
       opacity: 1;
       transform: none;
       -webkit-text-stroke: 1.5px $primary;

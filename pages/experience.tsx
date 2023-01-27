@@ -7,7 +7,11 @@ import { container, item, skillsItem } from "../animation";
 import { useContext, useState } from "react";
 import { MouseContext } from "../context/mouseContext";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function Experience() {
+  const { t, lang } = useTranslation("experience");
+
   const { cursorChangeHandler } = useContext(MouseContext);
   interface Work {
     name: string;

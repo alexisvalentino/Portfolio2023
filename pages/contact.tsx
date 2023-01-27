@@ -9,7 +9,11 @@ import { useContext } from "react";
 import { MouseContext } from "../context/mouseContext";
 import useMousePosition from "../Components/Cursor/UseMousePosition";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function Contact() {
+  const { t, lang } = useTranslation("contact");
+
   const { cursorChangeHandler } = useContext(MouseContext);
 
   return (
