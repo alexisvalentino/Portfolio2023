@@ -177,34 +177,26 @@ export default function Skills() {
   ];
   const certifications: Certifications[] = [
     {
-      name: "Awwwards Young Jury",
-      url: "https://drive.google.com/file/d/1UTyq4cPwsTLQt2wqqBBb9Lp_bU0gMea6/view?usp=share_link",
+      name: "Cisco Networking Academy",
+      url: "https://www.credly.com/users/alexis-valentino/badges",
     },
     {
-      name: "OpenClassrooms",
-      url: "https://drive.google.com/drive/folders/1mTQ98vR_POncLTRs8jGD4eTJoI5U5jHU?usp=share_link",
+      name: "IBM Cognitive Class",
+      url: "https://www.credly.com/users/alexis-valentino/badges",
     },
     {
-      name: "Udemy",
+      name: "Freecodecamp",
       url: "https://drive.google.com/drive/folders/1iBz8zi92uPJse4o6n4iwDDvQd-atU6OH?usp=share_link",
     },
     {
-      name: "Dyma",
+      name: "HackTheBox",
       url: "https://drive.google.com/drive/folders/1GbzS-5-Fpu_ZJlEc8SGu036O3gopZBy3?usp=share_link",
-    },
-    {
-      name: "Uxcel",
-      url: "https://drive.google.com/drive/folders/1mvo_idj5Kq2OhOPNFiUewFEgGPbyRqq0?usp=share_link",
-    },
-    {
-      name: "LinkedIn Learning",
-      url: "https://drive.google.com/drive/folders/1U677r2Nnmtq8pm8klai63iOYFMSuWxl6?usp=share_link",
     },
   ];
   return (
     <>
       <Head>
-        <title>Leonel NGOYA | Skills</title>
+        <title>Alexis Valentino | Skills</title>
         <meta
           name="description"
           content="

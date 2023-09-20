@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Leonel NGOYA • FrontEnd Engineer</title>
+        <title>Alexis Valentino • Software Engineer</title>
         <meta
           name="description"
           content="
@@ -105,7 +105,7 @@ export default function Home() {
                 onMouseLeave={() => cursorChangeHandler("")}
               >
                 {" "}
-                LEONEL NGOYA{" "}
+                ALEXIS VALENTINO{" "}
               </span>
             </motion.h1>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
                 onMouseLeave={() => cursorChangeHandler("")}
               >
                 {" "}
-                LN{" "}
+                LEC{" "}
               </span>
             </motion.h1>
           </div>
@@ -127,7 +127,7 @@ export default function Home() {
             }}
           >
             <motion.p variants={item}>
-              I’m a Front-end Developer & Web Integrator.
+              I’m a Software Engineer & Machine Learning Enthusiast.
             </motion.p>
           </div>
           <motion.h3 variants={item}>

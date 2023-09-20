@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Leonel NGOYA | Contact</title>
+        <title>Alexis Valentino | Contact</title>
         <meta
           name="description"
           content="
@@ -32,12 +32,7 @@ export default function Contact() {
           initial={{ x: "-10%", opacity: 0 }}
           transition={{ delay: 0.75, duration: 0.5 }}
         >
-          <Image
-            src="/illustrations/3.png"
-            alt="illustration"
-            width={2160}
-            height={2160}
-          />
+
         </motion.div>
         <div className="page__lines"></div>
         <div className="contact-title" style={{ overflow: "hidden" }}>
@@ -72,7 +67,7 @@ export default function Contact() {
             <ul>
               <motion.li variants={item}>
                 <a
-                  href="mailto:me@leonelngoya.com"
+                  href="mailto:alexismartinvalentino@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -91,56 +86,8 @@ export default function Contact() {
                       d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                  me@leonelngoya.com
+                  alexismartinvalentino@gmail.com
                 </a>
-              </motion.li>
-              <motion.li variants={item}>
-                <Link
-                  href="https://github.com/ln-dev7/"
-                  target="_blank"
-                  rel="noreferrer"
-                  onMouseEnter={() => cursorChangeHandler("hovered")}
-                  onMouseLeave={() => cursorChangeHandler("")}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                    />
-                  </svg>{" "}
-                  GitHub
-                </Link>
-              </motion.li>
-              <motion.li variants={item}>
-                <Link
-                  href="https://www.awwwards.com/sites/ln-dev"
-                  target="_blank"
-                  rel="noreferrer"
-                  onMouseEnter={() => cursorChangeHandler("hovered")}
-                  onMouseLeave={() => cursorChangeHandler("")}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                    />
-                  </svg>{" "}
-                  Awwwards
-                </Link>
               </motion.li>
             </ul>
           </motion.div>
@@ -156,7 +103,7 @@ export default function Contact() {
                 initial={{ y: "100%", opacity: 0 }}
                 transition={{ delay: 0, duration: 0.5 }}
               >
-                Social Medias{" "}
+                Social Media{" "}
               </motion.h3>
             </div>
             <ul>
@@ -181,7 +128,7 @@ export default function Contact() {
                       d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>{" "}
-                  Twitter
+                  Github
                 </Link>
               </motion.li>
               <motion.li variants={item}>
@@ -229,55 +176,7 @@ export default function Contact() {
                       d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>{" "}
-                  YouTube
-                </Link>
-              </motion.li>
-              <motion.li variants={item}>
-                <Link
-                  href="https://www.instagram.com/ln_dev7"
-                  target="_blank"
-                  rel="noreferrer"
-                  onMouseEnter={() => cursorChangeHandler("hovered")}
-                  onMouseLeave={() => cursorChangeHandler("")}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                    />
-                  </svg>{" "}
-                  Instagram
-                </Link>
-              </motion.li>
-              <motion.li variants={item}>
-                <Link
-                  href="https://www.twitch.tv/ln_dev7"
-                  target="_blank"
-                  rel="noreferrer"
-                  onMouseEnter={() => cursorChangeHandler("hovered")}
-                  onMouseLeave={() => cursorChangeHandler("")}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                    />
-                  </svg>{" "}
-                  Twitch
+                  Medium
                 </Link>
               </motion.li>
             </ul>

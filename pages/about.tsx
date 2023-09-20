@@ -33,7 +33,7 @@ export default function about() {
   return (
     <>
       <Head>
-        <title>Leonel NGOYA | About</title>
+        <title>Alexis Valentino | About</title>
         <meta
           name="description"
           content="
@@ -80,57 +80,56 @@ export default function about() {
             transition={{ delay: 0.1, duration: 0.5 }}
             className="about-left__text"
           >
-            Hey, my name is Leonel NGOYA but I am much better known as LN. I am
-            a FrontEnd Engineer, Web Integrator and{" "}
+            Hey, I'm Alexis Valentino. I am
+            a Software Engineer{" "}
             <a
               href="https://www.awwwards.com/jury-member/ln-dev"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              Awwwards Young Jury
             </a>{" "}
-            from Cameroon, I’m passionate about creating beautiful, intuitive
-            and responsive websites. I also like to listen to{" "}
+            from the Philippines, When I'm not exploring the latest developments in AI and Machine Learning, 
+            you can find me tinkering with Web Development projects or Building Robots just for fun.{" "}
             <a
               href="https://open.spotify.com/playlist/2akHeWgVqLdf453oKj4lPH?si=ZdA5H7VMTm2OtjfdxFiEtg"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              music
             </a>{" "}
-            and in my spare time I often write{" "}
+            In my spare time I often write{" "}
             <a
-              href="https://laravel.cm/user/ln-dev7"
+              href="https://medium.com/@alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
               articles
             </a>{" "}
-            about development and I also make{" "}
+            about self-improvement and spent a lot of time Committing, Pushing and Pulling on{" "}
             <a
-              href="https://www.youtube.com/c/LNDev"
+              href="https://github.com/alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              youtube videos
+              Github.   
             </a>
+             In the recent years, I've been focused on Software Architecture, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Design, Electronics, Signal Processing, CAD and Operating systems. Building a solid foundation and creating exciting projects that solve real-world problems. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
           </motion.p>
           <div className="about-left__langs">
             <motion.h3 variants={item}>LANGUAGES</motion.h3>
             <motion.li variants={item}>
-              <span>French</span>
+              <span>Filipino</span>
               <span>Native</span>
             </motion.li>
             <motion.li variants={item}>
-              <span>Italian</span>
+              <span>English</span>
               <span>Fluent</span>
             </motion.li>
             <motion.li variants={item}>
-              <span>English</span>
+              <span>Pidgin</span>
               <span>Basic</span>
             </motion.li>
           </div>
