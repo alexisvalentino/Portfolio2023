@@ -28,25 +28,25 @@ export default function Experience() {
 
   const works: Work[] = [
     {
-      name: "Learning Planet Institute",
+      name: "Messenger Clone",
       url: "https://www.learningplanetinstitute.org/",
       position: "Freelance FrontEnd Developer",
       location: "Remote",
       date: "April 2023 - Present",
       description: "",
-      stacks: ["Vue3", "StoryBook", "Nuxt", "SASS"],
+      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
     },
     {
-      name: "Diadromoove",
+      name: "Smart Security Robot",
       position: "Freelance FrontEnd Developer",
       location: "Remote",
       date: "January 2023 - July 2023",
       description:
         "Development of the front-end of the Gloovee web application",
-      stacks: ["NextJS", "SASS"],
+      stacks: ["Python", "OpenCV"],
     },
     {
-      name: "Mboa Digital",
+      name: "Discord Clone",
       url: "https://www.mboadigital.tech/",
       position: "Digital Consultant",
       location: "Yaoundé, Cameroon",
@@ -56,7 +56,7 @@ export default function Experience() {
       stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
     },
     {
-      name: "Freelance",
+      name: "Twitter - X Clone",
       position: "Front-end Developer",
       location: "Remote",
       date: "From June 2021",
@@ -65,7 +65,7 @@ export default function Experience() {
       stacks: ["React", "NextJS", "VueJS", "Svelte", "SCSS", "TypeScript"],
     },
     {
-      name: "AfritechHub",
+      name: "3D Portfolio Website",
       url: "https://afritechh.com/",
       position: "Web Trainer",
       location: "Douala",
@@ -77,7 +77,7 @@ export default function Experience() {
   ];
   const internships: Work[] = [
     {
-      name: "Mboa Digital",
+      name: "Bagsik: The Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration",
       url: "https://www.mboadigital.tech/",
       position: "Front-end Developer",
       location: "Yaoundé, Cameroon",
@@ -85,26 +85,6 @@ export default function Experience() {
       description:
         "During this internship my main goal was the development of websites respecting very specific designs, it allowed me to increase my skills in ReactJS and also to work better in a team.",
       stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
-    },
-    {
-      name: "LOHCE",
-      url: "https://lohce.com/",
-      position: "Front-end Developer",
-      location: "Remote",
-      date: "April 2022 - June 2022",
-      description:
-        "The main goal of this internship was to create a prototype chat bot to help people buy a travel ticket online.",
-      stacks: ["React"],
-    },
-    {
-      name: "Genuka",
-      url: "https://genuka.com/",
-      position: "Front-end Developer",
-      location: "Remote",
-      date: "March 2022 - May 2022",
-      description:
-        "The main goal was the implementation of templates for Genuka stores through their API, I was also to form a team of two people for the accomplishment of this said task.",
-      stacks: ["Svelte"],
     },
   ];
   
@@ -220,7 +200,7 @@ export default function Experience() {
               initial={{ y: "50%", opacity: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
             >
-              Internships
+              Publications
             </motion.h2>
           </div>
           <div className="experience-internship__cards">

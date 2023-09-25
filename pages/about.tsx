@@ -98,7 +98,7 @@ export default function about() {
               target="_blank"
             >
             </a>{" "}
-            In my spare time I often write{" "}
+            In my spare time I write{" "}
             <a
               href="https://medium.com/@alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -155,27 +155,6 @@ export default function about() {
               </svg>{" "}
               Resume
             </motion.a>
-            <motion.a
-              variants={item}
-              href="https://testimonial.to/ln-dev/all"
-              onMouseEnter={() => cursorChangeHandler("hovered")}
-              onMouseLeave={() => cursorChangeHandler("")}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                />
-              </svg>{" "}
-              Testimonials
-            </motion.a>
           </div>
         </motion.div>
         <motion.div
@@ -186,8 +165,8 @@ export default function about() {
         >
           <div className="about-right__image">
             <Image
-              src="/images/ln-dev.jpg"
-              alt="leonel ngoya"
+              src="/images/profile.jpg"
+              alt="alexis valentino"
               width={3024}
               height={4032}
             />

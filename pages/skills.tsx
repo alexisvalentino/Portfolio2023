@@ -181,16 +181,20 @@ export default function Skills() {
       url: "https://www.credly.com/users/alexis-valentino/badges",
     },
     {
-      name: "IBM Cognitive Class",
+      name: "IBM Digital Badge Program",
       url: "https://www.credly.com/users/alexis-valentino/badges",
     },
     {
-      name: "Freecodecamp",
-      url: "https://drive.google.com/drive/folders/1iBz8zi92uPJse4o6n4iwDDvQd-atU6OH?usp=share_link",
+      name: "Harvard CS50",
+      url: "",
+    },
+    {
+      name: "freeCodeCamp",
+      url: "",
     },
     {
       name: "HackTheBox",
-      url: "https://drive.google.com/drive/folders/1GbzS-5-Fpu_ZJlEc8SGu036O3gopZBy3?usp=share_link",
+      url: "",
     },
   ];
   return (
