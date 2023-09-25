@@ -21,7 +21,7 @@ export default function Document() {
             </svg>
           </div>
           <p className="copyright">
-            Coded by <a href="https://www.leonelngoya.com/"> LN </a> • All
+            Coded by <a href="https://www.leonelngoya.com/"> Alexis </a> • All
             rights reserved • 2021 - {new Date().getFullYear()}
           </p>
         </div>

@@ -133,7 +133,7 @@ export default function Contact() {
               </motion.li>
               <motion.li variants={item}>
                 <Link
-                  href="https://www.facebook.com/broimlevel21"
+                  href="https://twitter.com/alxsvalentino"
                   target="_blank"
                   rel="noreferrer"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -181,7 +181,7 @@ export default function Contact() {
               </motion.li>
               <motion.li variants={item}>
                 <Link
-                  href="https://www.linkedin.com/in/alexisvalentino/"
+                  href="https://www.facebook.com/broimlevel21"
                   target="_blank"
                   rel="noreferrer"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
