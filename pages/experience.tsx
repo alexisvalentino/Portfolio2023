@@ -28,54 +28,54 @@ export default function Experience() {
 
   const works: Work[] = [
     {
+      name: "Bagsik security robot",
+      url: "https://t.ly/2l5Tx",
+      position: "",
+      location: "",
+      date: "September 2023",
+      description:
+        "Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration.  (Research project)",
+      stacks: ["opencv", "haarcascade", "robot operating system", "python"],
+    },
+    {
+      name: "GPT - Voice Assistant",
+      url: "https://afritechh.com/",
+      position: "",
+      location: "",
+      date: "December 2021",
+      description:
+        "Built on top of OpenAI's state-of-the-art GPT language model, providing you with a highly responsive and accurate voice assistant that can understand natural language queries and commands. The system is designed to learn from your interactions and improve over time, providing you with more personalized and efficient responses to your requests.",
+      stacks: ["openAI", "python"],
+    },
+    {
       name: "Messenger Clone",
-      url: "https://www.learningplanetinstitute.org/",
-      position: "Real-Time Messenger Clone i Developed using Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher",
+      url: "https://github.com/alexisvalentino/messenger-clone",
+      position: "",
       location: "",
       date: "April 2023",
-      description: "",
+      description: "Full stack real-time messenger clone",
       stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Pusher"],
     },
     {
-      name: "IoT Security robot",
-      url: "https://www.mboadigital.tech/",
-      position: "Digital Consultant",
-      location: "Yaoundé, Cameroon",
-      date: "August 2022 - April 2023",
-      description:
-        "More than a front-end developer, I am here a Digital consultant. My goal is to design robust web applications with good UI/UX. While working as a team.",
-      stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
-    },
-    {
       name: "TodoList",
-      position: "Front-end Developer",
-      location: "Remote",
-      date: "From June 2021",
+      url: "https://github.com/alexisvalentino/todoList",
+      position: "",
+      location: "",
+      date: "June 2022",
       description:
-        " a freelancer I have worked for many independent clients and agencies around the world, especially in the position of front-end developer and also web integrator, my goal is to create robust web applications with a good UI/UX.",
-      stacks: ["React", "NextJS", "VueJS", "Svelte", "SCSS", "TypeScript"],
-    },
-    {
-      name: "Voice Assistant",
-      url: "https://afritechh.com/",
-      position: "Web Trainer",
-      location: "Douala",
-      date: "April 2021",
-      description:
-        "For two weeks I trained students to become apprentices in web development including the basics of HTML5 - CSS3 - JavaScript.",
-      stacks: ["OpenAI", "Python", "NLP"],
+        "A web app i developed for listing my daily activities",
+      stacks: ["react", "expo"],
     },
   ];
   const internships: Work[] = [
     {
-      name: "Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration",
-      url: "https://www.mboadigital.tech/",
-      position: "Researcher",
-      location: "AMACC, Santiago Campus",
+      name: "Soon",
+      url: "",
+      position: "",
+      location: "",
       date: "",
       description:
-        "This prototype robot features an array of cameras for multifaceted surveillance, seamless mobile integration for remote monitoring and control, sophisticated microprocessors driving the robot's operating system, and employs state-of-the-art computer vision and machine learning algorithms for real-time threat identification, encompassing guns and knives, and loud noises. Additionally, the prototype robot can send real-time alerts to users through sound alarms and emails, complete with attached screenshots of detected threats (e.g., guns and knives), audio recordings of loud sounds, precise date and time stamps, and geolocation data indicating where the detection occurred.",
-      stacks: ["OpenCV", "Haar Cascade", "Robot Operating System", "Python", "Machine Learning"],
+        "",
     },
   ];
   
@@ -191,7 +191,7 @@ export default function Experience() {
               initial={{ y: "50%", opacity: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
             >
-              Publications
+            Publications
             </motion.h2>
           </div>
           <div className="experience-internship__cards">
