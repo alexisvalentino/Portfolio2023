@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Alexis Valentino • Software Engineer</title>
+        <title>Alexis Valentino • Computer Engineer</title>
         <meta
           name="description"
           content="
@@ -127,7 +127,7 @@ export default function Home() {
             }}
           >
             <motion.p variants={item}>
-              I’m a Software Engineer & Machine Learning Enthusiast.
+              I’m a Computer Engineer & Software Developer.
             </motion.p>
           </div>
           <motion.h3 variants={item}>
