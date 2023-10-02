@@ -81,7 +81,7 @@ export default function about() {
             className="about-left__text"
           >
             Hey, I'm Alexis Valentino. I am
-            a Software Engineer{" "}
+            a Computer Engineer{" "}
             <a
               href="https://www.awwwards.com/jury-member/ln-dev"
               onMouseEnter={() => cursorChangeHandler("hovered")}
