@@ -107,16 +107,16 @@ export default function about() {
             >
               articles
             </a>{" "}
-            about self-improvement and spent a lot of time Committing, Pushing and Pulling on{" "}
+            about self-improvement and spent a lot of time pushing on{" "}
             <a
               href="https://github.com/alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              Github.   
+            Github.
             </a>
-             In the recent years, I've been focused on Software Architecture, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Design, Electronics, Signal Processing, CAD and Operating systems. Building a solid foundation and creating exciting projects that solve real-world problems. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
+            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Architecture, Electronics, Operating systems, Signal Processing and Cybersecurity. I gained practical experience in designing and implementing hardware systems and additionally, I am proficient in Python and Javascript. I am committed to utilizing my knowledge and skills to create innovative solutions and developing exciting projects that solve real world problems. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
           </motion.p>
           <div className="about-left__langs">
             <motion.h3 variants={item}>LANGUAGES</motion.h3>

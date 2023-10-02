@@ -30,23 +30,14 @@ export default function Experience() {
     {
       name: "Messenger Clone",
       url: "https://www.learningplanetinstitute.org/",
-      position: "Freelance FrontEnd Developer",
-      location: "Remote",
-      date: "April 2023 - Present",
+      position: "Real-Time Messenger Clone i Developed using Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher",
+      location: "",
+      date: "April 2023",
       description: "",
-      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
+      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Pusher"],
     },
     {
-      name: "Smart Security Robot",
-      position: "Freelance FrontEnd Developer",
-      location: "Remote",
-      date: "January 2023 - July 2023",
-      description:
-        "Development of the front-end of the Gloovee web application",
-      stacks: ["Python", "OpenCV"],
-    },
-    {
-      name: "Discord Clone",
+      name: "IoT Security robot",
       url: "https://www.mboadigital.tech/",
       position: "Digital Consultant",
       location: "Yaoundé, Cameroon",
@@ -56,7 +47,7 @@ export default function Experience() {
       stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
     },
     {
-      name: "Twitter - X Clone",
+      name: "TodoList",
       position: "Front-end Developer",
       location: "Remote",
       date: "From June 2021",
@@ -65,26 +56,26 @@ export default function Experience() {
       stacks: ["React", "NextJS", "VueJS", "Svelte", "SCSS", "TypeScript"],
     },
     {
-      name: "3D Portfolio Website",
+      name: "Voice Assistant",
       url: "https://afritechh.com/",
       position: "Web Trainer",
       location: "Douala",
       date: "April 2021",
       description:
         "For two weeks I trained students to become apprentices in web development including the basics of HTML5 - CSS3 - JavaScript.",
-      stacks: ["HTML", "CSS", "JS"],
+      stacks: ["OpenAI", "Python", "NLP"],
     },
   ];
   const internships: Work[] = [
     {
-      name: "Bagsik: The Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration",
+      name: "Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration",
       url: "https://www.mboadigital.tech/",
-      position: "Front-end Developer",
-      location: "Yaoundé, Cameroon",
-      date: "June 2022 - August 2022",
+      position: "Researcher",
+      location: "AMACC, Santiago Campus",
+      date: "",
       description:
-        "During this internship my main goal was the development of websites respecting very specific designs, it allowed me to increase my skills in ReactJS and also to work better in a team.",
-      stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
+        "This prototype robot features an array of cameras for multifaceted surveillance, seamless mobile integration for remote monitoring and control, sophisticated microprocessors driving the robot's operating system, and employs state-of-the-art computer vision and machine learning algorithms for real-time threat identification, encompassing guns and knives, and loud noises. Additionally, the prototype robot can send real-time alerts to users through sound alarms and emails, complete with attached screenshots of detected threats (e.g., guns and knives), audio recordings of loud sounds, precise date and time stamps, and geolocation data indicating where the detection occurred.",
+      stacks: ["OpenCV", "Haar Cascade", "Robot Operating System", "Python", "Machine Learning"],
     },
   ];
   
