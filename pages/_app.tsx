@@ -62,27 +62,27 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <NextSeo
-        title="Leonel NGOYA"
-        description="Hey, my name is Leonel NGOYA but I am much better known as LN. I am FrontEnd Engineer and web integrator from Cameroon, I’m passionate about creating beautiful, intuitive and responsive websites."
-        canonical="https://lndev.me/"
+        title="Alexis Valentino"
+        description="Hey, I'm Alexis Valentino. I am a Computer Engineer from the Philippines, When I'm not exploring the latest developments in AI and Machine Learning, you can find me tinkering with Web Development projects or Building Robots just for fun."
+        canonical="alexisvalentinowebsite.vercel.app"
         openGraph={{
-          url: "https://lndev.me/",
-          title: "Leonel NGOYA",
+          url: "alexisvalentinowebsite.vercel.app",
+          title: "Alexis Valentino",
           description:
-            "Hey, my name is Leonel NGOYA but I am much better known as LN. I am FrontEnd Engineer and web integrator from Cameroon, I’m passionate about creating beautiful, intuitive and responsive websites.",
+            "Hey, I'm Alexis Valentino. I am a Computer Engineer from the Philippines, When I'm not exploring the latest developments in AI and Machine Learning, you can find me tinkering with Web Development projects or Building Robots just for fun.",
           images: [
             {
-              url: "https://lndev.me/images/lndev.JPG",
-              alt: "LN Dev",
-              type: "image/jpeg",
-              secureUrl: "https://lndev.me/images/lndev.JPG",
+              url: "",
+              alt: "",
+              type: "",
+              secureUrl: "",
             },
           ],
-          siteName: "Leonel NGOYA | FrontEnd Engineer",
+          siteName: "Alexis Valentino | Computer Engineer",
         }}
         twitter={{
-          handle: "@ln_dev7",
-          site: "@ln_dev7",
+          handle: "",
+          site: "",
           cardType: "summary_large_image",
         }}
       />
