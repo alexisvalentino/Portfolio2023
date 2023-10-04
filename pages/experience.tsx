@@ -44,7 +44,7 @@ export default function Experience() {
       location: "",
       date: "December 2021",
       description:
-        "Built on top of OpenAI's state-of-the-art GPT language model, providing you with a highly responsive and accurate voice assistant that can understand natural language queries and commands. The system is designed to learn from your interactions and improve over time, providing you with more personalized and efficient responses to your requests.",
+        "Built on top of OpenAI's GPT language model, providing a highly responsive and accurate voice assistant that can understand natural language queries and commands.",
       stacks: ["openAI", "python"],
     },
     {
@@ -168,7 +168,7 @@ export default function Experience() {
                           d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                         />
                       </svg>
-                      <span>Website</span>
+                      <span>View</span>
                     </Link>
                   )}
                 </div>
