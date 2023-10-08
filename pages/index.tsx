@@ -63,7 +63,7 @@ export default function Home() {
       <main className="home">
         <div className="home-velo">
           <Image
-            src="/illustrations/2.png"
+            src=""
             alt="velo"
             width={2160}
             height={2160}
