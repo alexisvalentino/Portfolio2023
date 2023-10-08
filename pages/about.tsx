@@ -136,7 +136,7 @@ export default function about() {
           <div className="about-left__links">
             <motion.a
               variants={item}
-              href="https://drive.google.com/file/d/1AKRWT-s8w9u43u-42A9TN3tvdAwEfvWV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1c40uSHQaMwtuOzbUmPyadHDRnDrVxWZe/view?usp=sharing"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
             >
