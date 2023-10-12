@@ -185,7 +185,7 @@ export default function Skills() {
       url: "https://www.credly.com/users/alexis-valentino/badges",
     },
     {
-      name: "Harvard CS50",
+      name: "DataCamp",
       url: "",
     },
     {
