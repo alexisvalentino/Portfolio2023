@@ -39,7 +39,7 @@ export default function Experience() {
     },
     {
       name: "GPT - Voice Assistant",
-      url: "https://afritechh.com/",
+      url: "https://github.com/alexisvalentino/GPT-powered-voice-assistant",
       position: "",
       location: "",
       date: "December 2021",
