@@ -98,16 +98,16 @@ export default function about() {
               target="_blank"
             >
             </a>{" "}
-            In my spare time I write{" "}
+            In my spare time I love learning and taking free{" "}
             <a
-              href="https://medium.com/@alexisvalentino"
+              href="https://www.credly.com/users/alexis-valentino/badges"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              articles
+              courses 
             </a>{" "}
-            about self-improvement and spent a lot of time pushing on{" "}
+            and spent a lot of time pushing on{" "}
             <a
               href="https://github.com/alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
