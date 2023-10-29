@@ -98,7 +98,7 @@ export default function about() {
               target="_blank"
             >
             </a>{" "}
-            In my spare time I love learning and taking free{" "}
+            In my spare time I love taking free{" "}
             <a
               href="https://www.credly.com/users/alexis-valentino/badges"
               onMouseEnter={() => cursorChangeHandler("hovered")}
