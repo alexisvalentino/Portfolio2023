@@ -89,7 +89,7 @@ export default function about() {
               target="_blank"
             >
             </a>{" "}
-            from the Philippines, When I'm not exploring the latest developments in AI and Machine Learning, 
+            from the Philippines, When I'm not exploring the latest developments in AI and LLM, 
             you can find me tinkering with Web Development projects or Building Robots just for fun.{" "}
             <a
               href="https://open.spotify.com/playlist/2akHeWgVqLdf453oKj4lPH?si=ZdA5H7VMTm2OtjfdxFiEtg"
@@ -107,7 +107,7 @@ export default function about() {
             >
               courses 
             </a>{" "}
-            and spent a lot of time pushing on{" "}
+            and spent a lot of time pushing on {" "}
             <a
               href="https://github.com/alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -116,7 +116,7 @@ export default function about() {
             >
             Github.
             </a>
-            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Architecture, Electronics, Operating systems, Signal Processing and Cybersecurity.
+            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Machine Learning, Cloud Computing, Data Structures and Algorithms, Network Architecture, Embedded systems, Signal Processing and Cybersecurity.
             I have hands-on experience in designing and implementing hardware systems, and a strong interest in emerging technologies like Blockchain and IoT. Proficient in Python and
             Javascript, I am dedicated to applying my expertise to innovate and tackle real-world challenges through
             exciting projects. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
