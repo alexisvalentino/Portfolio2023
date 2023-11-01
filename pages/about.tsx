@@ -116,7 +116,10 @@ export default function about() {
             >
             Github.
             </a>
-            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Architecture, Electronics, Operating systems, Signal Processing and Cybersecurity. I gained practical experience in designing and implementing hardware systems and additionally, I am proficient in Python and Javascript. I am committed to utilizing my knowledge and skills to create innovative solutions and developing exciting projects that solve real world problems. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
+            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Cloud Computing, Data Structures and Algorithms, Network Architecture, Electronics, Operating systems, Signal Processing and Cybersecurity.
+            I have hands-on experience in designing and implementing hardware systems, and a strong interest in emerging technologies like Blockchain and IoT. Proficient in Python and
+            Javascript, I am dedicated to applying my expertise to innovate and tackle real-world challenges through
+            exciting projects. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
           </motion.p>
           <div className="about-left__langs">
             <motion.h3 variants={item}>LANGUAGES</motion.h3>
