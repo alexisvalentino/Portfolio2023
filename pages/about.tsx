@@ -80,46 +80,29 @@ export default function about() {
             transition={{ delay: 0.1, duration: 0.5 }}
             className="about-left__text"
           >
-            Hey, I'm Alexis Valentino. I am
-            a Computer Engineer{" "}
-            <a
-              href="https://www.awwwards.com/jury-member/ln-dev"
-              onMouseEnter={() => cursorChangeHandler("hovered")}
-              onMouseLeave={() => cursorChangeHandler("")}
-              target="_blank"
-            >
-            </a>{" "}
-            from the Philippines, When I'm not exploring the latest developments in AI and LLM, 
-            you can find me tinkering with Web Development projects or Building Robots just for fun.{" "}
-            <a
-              href="https://open.spotify.com/playlist/2akHeWgVqLdf453oKj4lPH?si=ZdA5H7VMTm2OtjfdxFiEtg"
-              onMouseEnter={() => cursorChangeHandler("hovered")}
-              onMouseLeave={() => cursorChangeHandler("")}
-              target="_blank"
-            >
-            </a>{" "}
-            In my spare time I love taking free{" "}
+            Hey, I’m Alexis Valentino. I’m a Computer Engineer from the Philippines. When I’m not exploring the latest developments in AI and LLMs, you can find me tinkering with web development projects or building robots just for fun.
+            <br /><br />
+            Currently, I work as a Software Delivery Engineer at Whale Cloud, where I conduct regression testing and create test reports based on solution requirements. Using in-house tools, I identify and track bugs, and actively participate in Development, System Integration Testing (SIT), and User Acceptance Testing (UAT) processes. I collaborate with teams to resolve issues, ensuring smooth application delivery and contributing to the successful implementation of new app features and AI deployments.
+            <br /><br />
+            In my spare time, I enjoy taking free{" "}
             <a
               href="https://www.credly.com/users/alexis-valentino/badges"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-              courses 
+              courses
             </a>{" "}
-            and spent a lot of time pushing on {" "}
+            and pushing contributions to{" "}
             <a
               href="https://github.com/alexisvalentino"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
               target="_blank"
             >
-            Github.
+              GitHub
             </a>
-            In the recent years, I've been focused on Software Engineering, DevOps, Robotics, Machine Learning, Cloud Computing, Data Structures and Algorithms, Network Architecture, Embedded systems, Signal Processing and Cybersecurity.
-            I have hands-on experience in designing and implementing hardware systems, and a strong interest in emerging technologies like Blockchain and IoT. Proficient in Python and
-            Javascript, I am dedicated to applying my expertise to innovate and tackle real-world challenges through
-            exciting projects. Take a look at my projects to see what I'm working on, and get in touch if you'd like to work together!
+            . Proficient in Python and JavaScript, I’m dedicated to applying my expertise to innovate and tackle real-world challenges through exciting projects. Take a look at my projects to see what I’m working on, and feel free to reach out if you’d like to collaborate!
           </motion.p>
           <div className="about-left__langs">
             <motion.h3 variants={item}>LANGUAGES</motion.h3>
@@ -139,7 +122,7 @@ export default function about() {
           <div className="about-left__links">
             <motion.a
               variants={item}
-              href="https://drive.google.com/file/d/1b2cFFhK-rR0BXOm5xy1sq-j5XZixs3uJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BjIMyg-SJE7W7fCTjEAMlBbyhgn8Qn5r/view?usp=sharing"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
             >

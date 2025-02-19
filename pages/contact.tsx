@@ -181,7 +181,7 @@ export default function Contact() {
               </motion.li>
               <motion.li variants={item}>
                 <Link
-                  href="https://www.facebook.com/broimlevel21"
+                  href="https://www.facebook.com/nevergofullkanye"
                   target="_blank"
                   rel="noreferrer"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
