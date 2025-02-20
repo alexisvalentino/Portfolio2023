@@ -28,6 +28,39 @@ export default function Experience() {
 
   const works: Work[] = [
     {
+      name: "Software Delivery Engineer",
+      url: "https://t.ly/2l5Tx",
+      position: "",
+      location: "",
+      date: "September 2023",
+      description:
+        "I conduct regression testing and test reporting based on solution requirements specifications, using in-house tools to identify and track bugs, and collaborate with teams across DEV, SIT, and UAT to resolve issues and ensure smooth application delivery.",
+      stacks: ["opencv", "haarcascade", "robot operating system", "python"],
+    },
+    {
+      name: "Information Technology Operations Associate",
+      url: "https://github.com/alexisvalentino/GPT-powered-voice-assistant",
+      position: "",
+      location: "",
+      date: "December 2021",
+      description:
+        " I provided technical assistance for Microsoft Corporation, leveraging tools like ServiceNow, BeyondTrust, and Genesys Cloud to resolve system issues efficiently.",
+      stacks: ["openAI", "python"],
+    },
+    {
+      name: "Software Developer",
+      url: "https://github.com/alexisvalentino/messenger-clone",
+      position: "",
+      location: "",
+      date: "April 2023",
+      description: "Developed, tested, and maintained web applications across multiple projects, ensuring high performance and alignment with client expectations.",
+      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Pusher"],
+    },
+    
+  ];
+
+  const internships: Work[] = [
+    {
       name: "Bagsik security robot",
       url: "https://t.ly/2l5Tx",
       position: "",
@@ -37,48 +70,7 @@ export default function Experience() {
         "Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration.  (Research project)",
       stacks: ["opencv", "haarcascade", "robot operating system", "python"],
     },
-    {
-      name: "GPT - Voice Assistant",
-      url: "https://github.com/alexisvalentino/GPT-powered-voice-assistant",
-      position: "",
-      location: "",
-      date: "December 2021",
-      description:
-        "Built on top of OpenAI's GPT language model, providing a highly responsive and accurate voice assistant that can understand natural language queries and commands.",
-      stacks: ["openAI", "python"],
-    },
-    {
-      name: "Messenger Clone",
-      url: "https://github.com/alexisvalentino/messenger-clone",
-      position: "",
-      location: "",
-      date: "April 2023",
-      description: "Full stack real-time messenger clone",
-      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Pusher"],
-    },
-    {
-      name: "TodoList",
-      url: "https://github.com/alexisvalentino/todoList",
-      position: "",
-      location: "",
-      date: "June 2022",
-      description:
-        "A web app i developed for listing my daily activities",
-      stacks: ["react", "expo"],
-    },
   ];
-  const internships: Work[] = [
-    {
-      name: "Soon",
-      url: "",
-      position: "",
-      location: "",
-      date: "",
-      description:
-        "",
-    },
-  ];
-  
 
   const [imageUrl, setImageUrl] = useState("");
   const [imageName, setImageName] = useState("");
@@ -121,7 +113,7 @@ export default function Experience() {
               initial={{ y: "50%", opacity: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
             >
-              Featured Projects
+              Work Experience
             </motion.h2>
           </div>
           <div className="experience-works__cards">
@@ -142,8 +134,8 @@ export default function Experience() {
                 </div>
                 {work.stacks && (
                   <div className="card-stacks">
-                    {work.stacks.map((item) => {
-                      return <button>{item}</button>;
+                    {work.stacks.map((item, index) => {
+                      return <button key={index}>{item}</button>;
                     })}
                   </div>
                 )}
@@ -191,7 +183,7 @@ export default function Experience() {
               initial={{ y: "50%", opacity: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
             >
-            Publications
+              Projects
             </motion.h2>
           </div>
           <div className="experience-internship__cards">
@@ -212,8 +204,8 @@ export default function Experience() {
                 </div>
                 {internship.stacks && (
                   <div className="card-stacks">
-                    {internship.stacks.map((item) => {
-                      return <button>{item}</button>;
+                    {internship.stacks.map((item, index) => {
+                      return <button key={index}>{item}</button>;
                     })}
                   </div>
                 )}
@@ -249,4 +241,4 @@ export default function Experience() {
       </main>
     </>
   );
-}  
+}
