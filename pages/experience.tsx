@@ -31,7 +31,7 @@ export default function Experience() {
       name: "Software Delivery Engineer",
       url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "Whale Cloud - Alibaba Group",
-      location: "Fort Bonifacio, Taguig City",
+      location: "Taguig City",
       date: "Dec 2024 - Present",
       description:
         "I conduct regression testing and test reporting based on solution requirements specifications, using in-house tools to identify and track bugs, and collaborate with teams across DEV, SIT, and UAT to resolve issues and ensure smooth application delivery.",
@@ -41,7 +41,7 @@ export default function Experience() {
       name: "Information Technology Operations Associate",
       url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "Accenture",
-      location: "Robinsons Cybergate Tower 2",
+      location: "Mandaluyong City",
       date: "Jan 2024 - Dec 2024",
       description:
         " I provided technical assistance for Microsoft Corporation, leveraging tools like ServiceNow, BeyondTrust, and Genesys Cloud to resolve system issues efficiently.",
