@@ -79,12 +79,6 @@ export default function Skills() {
           colorRGB: "255, 62, 0",
         },
         {
-          url: "https://www.svgrepo.com/show/452130/vue.svg",
-          name: "Vue",
-          color: "#4FC08D",
-          colorRGB: "79, 192, 141",
-        },
-        {
           url: "https://www.svgrepo.com/show/374118/tailwind.svg",
           name: "TailwindCSS",
           color: "#38B2AC",
@@ -184,18 +178,7 @@ export default function Skills() {
       name: "IBM Digital Badge Program",
       url: "https://www.credly.com/users/alexis-valentino/badges",
     },
-    {
-      name: "DataCamp",
-      url: "",
-    },
-    {
-      name: "freeCodeCamp",
-      url: "",
-    },
-    {
-      name: "HackTheBox",
-      url: "",
-    },
+
   ];
   return (
     <>

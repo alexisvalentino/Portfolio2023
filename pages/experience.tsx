@@ -29,7 +29,7 @@ export default function Experience() {
   const works: Work[] = [
     {
       name: "Software Delivery Engineer",
-      url: "https://t.ly/2l5Tx",
+      url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "",
       location: "",
       date: "September 2023",
@@ -39,7 +39,7 @@ export default function Experience() {
     },
     {
       name: "Information Technology Operations Associate",
-      url: "https://github.com/alexisvalentino/GPT-powered-voice-assistant",
+      url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "",
       location: "",
       date: "December 2021",
@@ -49,7 +49,7 @@ export default function Experience() {
     },
     {
       name: "Software Developer",
-      url: "https://github.com/alexisvalentino/messenger-clone",
+      url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "",
       location: "",
       date: "April 2023",
@@ -62,7 +62,7 @@ export default function Experience() {
   const internships: Work[] = [
     {
       name: "Smart Security Robot - Bagsik 1",
-      url: "https://t.ly/2l5Tx",
+      url: "https://ieeexplore.ieee.org/document/10402359",
       position: "",
       location: "",
       date: "September 2023",
