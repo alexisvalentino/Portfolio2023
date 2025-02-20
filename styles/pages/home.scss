@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .home {
   position: relative;
   width: 100%;
@@ -259,7 +261,7 @@
 
 body.dark {
   .home {
-    background-color: rgb(0, 0, 0/1);
+    background-color: rgb(0, 0, math.div(0, 1));
     background: $primary;
     &__container {
       h1 {

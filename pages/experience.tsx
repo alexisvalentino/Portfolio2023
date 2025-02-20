@@ -30,9 +30,9 @@ export default function Experience() {
     {
       name: "Software Delivery Engineer",
       url: "https://www.linkedin.com/in/alexisvalentino/",
-      position: "",
-      location: "",
-      date: "September 2023",
+      position: "Whale Cloud - Alibaba Group",
+      location: "Fort Bonifacio, Taguig City",
+      date: "Dec 2024 - Present",
       description:
         "I conduct regression testing and test reporting based on solution requirements specifications, using in-house tools to identify and track bugs, and collaborate with teams across DEV, SIT, and UAT to resolve issues and ensure smooth application delivery.",
       stacks: ["Software Testing", "Test Reporting", "Application Delivery"],
@@ -40,9 +40,9 @@ export default function Experience() {
     {
       name: "Information Technology Operations Associate",
       url: "https://www.linkedin.com/in/alexisvalentino/",
-      position: "",
-      location: "",
-      date: "December 2021",
+      position: "Accenture",
+      location: "Robinsons Cybergate Tower 2",
+      date: "Jan 2024 - Dec 2024",
       description:
         " I provided technical assistance for Microsoft Corporation, leveraging tools like ServiceNow, BeyondTrust, and Genesys Cloud to resolve system issues efficiently.",
       stacks: ["Active Directory", "Technical Documentation", "Ticketing Systems", "Remote Desktop Support", "Cloud Applications", "Database Administration", "Technical Support", "Endpoint Security", "Account Management", "Access Control"],
@@ -50,9 +50,9 @@ export default function Experience() {
     {
       name: "Software Developer",
       url: "https://www.linkedin.com/in/alexisvalentino/",
-      position: "",
-      location: "",
-      date: "April 2023",
+      position: "Upwork",
+      location: "Remote",
+      date: "May 2020 - Apr 2022",
       description: "Developed, tested, and maintained web applications across multiple projects, ensuring high performance and alignment with client expectations.",
       stacks: ["Next.js 13", "React", "Tailwind", "Svelte", "MongoDB", "Python", "Hosting", "Project Management", "Version Control", "Client Relations", "Problem solving", "Attention to detail"],
     },

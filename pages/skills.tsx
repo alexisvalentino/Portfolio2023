@@ -9,6 +9,7 @@ import { MouseContext } from "../context/mouseContext";
 
 export default function Skills() {
   const { cursorChangeHandler } = useContext(MouseContext);
+
   interface Skill {
     url: string;
     name: string;
@@ -16,6 +17,7 @@ export default function Skills() {
     colorRGB: string;
     isBgBlack?: boolean;
   }
+
   interface SkillSection {
     title: string;
     skills: Skill[];
@@ -25,22 +27,11 @@ export default function Skills() {
     name: string;
     url: string;
   }
+
   const allSkills: SkillSection[] = [
     {
       title: "Web",
       skills: [
-        // {
-        //   url: "https://www.svgrepo.com/show/452228/html-5.svg",
-        //   name: "HTML",
-        //   color: "#E34F26",
-        //   colorRGB: "227, 79, 38",
-        // },
-        // {
-        //   url: "https://www.svgrepo.com/show/452185/css-3.svg",
-        //   name: "CSS",
-        //   color: "#1572B6",
-        //   colorRGB: "21, 114, 182",
-        // },
         {
           url: "https://www.svgrepo.com/show/354310/sass.svg",
           name: "SASS",
@@ -84,49 +75,8 @@ export default function Skills() {
           color: "#38B2AC",
           colorRGB: "56, 178, 172",
         },
-        // {
-        //   url: "https://www.svgrepo.com/show/354048/material-ui.svg",
-        //   name: "MUI",
-        //   color: "#0081CB",
-        //   colorRGB: "0, 129, 203",
-        // },
-        // {
-        //   url: "/images/lnui.svg",
-        //   name: "LNUI",
-        //   color: "#4ae3e7",
-        //   colorRGB: "74, 227, 231",
-        // },
       ],
     },
-    // {
-    //   title: "Documentation",
-    //   skills: [
-    //     {
-    //       url: "https://nextra.site/_next/static/media/favicon.69cb336f.svg",
-    //       name: "Nextra",
-    //       color: "#000000",
-    //       colorRGB: "0, 0, 0",
-    //       isBgBlack: true,
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "Mobile",
-    //   skills: [
-    //     {
-    //       url: "https://www.svgrepo.com/show/373604/flutter.svg",
-    //       name: "Flutter",
-    //       color: "#02569B",
-    //       colorRGB: "2, 86, 155",
-    //     },
-    //     {
-    //       url: "https://www.svgrepo.com/show/354259/react.svg",
-    //       name: "React Native",
-    //       color: "#61DAFB",
-    //       colorRGB: "97, 218, 251",
-    //     },
-    //   ],
-    // },
     {
       title: "Deployment",
       skills: [
@@ -160,15 +110,10 @@ export default function Skills() {
           color: "#FFCA28",
           colorRGB: "255, 202, 40",
         },
-        // {
-        //   url: "https://www.svgrepo.com/show/374171/vscode.svg",
-        //   name: "VSCode",
-        //   color: "#007ACC",
-        //   colorRGB: "0, 122, 204",
-        // },
       ],
     },
   ];
+
   const certifications: Certifications[] = [
     {
       name: "Cisco Networking Academy",
@@ -178,8 +123,8 @@ export default function Skills() {
       name: "IBM Digital Badge Program",
       url: "https://www.credly.com/users/alexis-valentino/badges",
     },
-
   ];
+
   return (
     <>
       <Head>
@@ -195,10 +140,10 @@ export default function Skills() {
       </Head>
       <main className="skills">
         <div className="page__lines"></div>
-        {allSkills.map((skill, index) => (
+        {allSkills.map((skillSection, sectionIndex) => (
           <motion.div
             className="skills-section"
-            key={index}
+            key={sectionIndex}
             variants={container}
             initial="hidden"
             animate="show"
@@ -212,19 +157,20 @@ export default function Skills() {
                 initial={{ y: "50%", opacity: 0 }}
                 transition={{ delay: 0.1, duration: 0.5 }}
               >
-                {skill.title}
+                {skillSection.title}
               </motion.h2>
             </div>
             <div className="skills-section__cards">
-              {skill.skills.map((skill, index) => (
+              {skillSection.skills.map((skill, skillIndex) => (
                 <div
+                  key={skillIndex}
                   style={{
                     overflow: "hidden",
                   }}
                 >
                   <motion.div
                     className={skill.isBgBlack ? "card card-black" : "card"}
-                    key={index}
+                    key={skillIndex}
                     variants={skillsItem}
                   >
                     <div
@@ -270,8 +216,8 @@ export default function Skills() {
             </motion.h2>
           </div>
           <ul className="skills-certif__cards">
-            {certifications.map((certif, index) => (
-              <motion.li key={index} variants={skillsItem}>
+            {certifications.map((certif, certifIndex) => (
+              <motion.li key={certifIndex} variants={skillsItem}>
                 <Link
                   href={certif.url}
                   passHref
