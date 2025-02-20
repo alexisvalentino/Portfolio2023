@@ -35,7 +35,7 @@ export default function Experience() {
       date: "September 2023",
       description:
         "I conduct regression testing and test reporting based on solution requirements specifications, using in-house tools to identify and track bugs, and collaborate with teams across DEV, SIT, and UAT to resolve issues and ensure smooth application delivery.",
-      stacks: ["opencv", "haarcascade", "robot operating system", "python"],
+      stacks: ["Software Testing", "Test Reporting", "Application Delivery"],
     },
     {
       name: "Information Technology Operations Associate",
@@ -45,7 +45,7 @@ export default function Experience() {
       date: "December 2021",
       description:
         " I provided technical assistance for Microsoft Corporation, leveraging tools like ServiceNow, BeyondTrust, and Genesys Cloud to resolve system issues efficiently.",
-      stacks: ["openAI", "python"],
+      stacks: ["Active Directory", "Technical Documentation", "Ticketing Systems", "Remote Desktop Support", "Cloud Applications", "Database Administration", "Technical Support", "Endpoint Security", "Account Management", "Access Control"],
     },
     {
       name: "Software Developer",
@@ -54,20 +54,20 @@ export default function Experience() {
       location: "",
       date: "April 2023",
       description: "Developed, tested, and maintained web applications across multiple projects, ensuring high performance and alignment with client expectations.",
-      stacks: ["Next.js 13", "React", "Tailwind", "Prisma", "MongoDB", "NextAuth", "Pusher"],
+      stacks: ["Next.js 13", "React", "Tailwind", "Svelte", "MongoDB", "Python", "Hosting", "Project Management", "Version Control", "Client Relations", "Problem solving", "Attention to detail"],
     },
-    
+
   ];
 
   const internships: Work[] = [
     {
-      name: "Bagsik security robot",
+      name: "Smart Security Robot - Bagsik 1",
       url: "https://t.ly/2l5Tx",
       position: "",
       location: "",
       date: "September 2023",
       description:
-        "Iot Security Robot with Real time Threat Detection and Alerts, Night Vision and Mobile Integration.  (Research project)",
+        "Iot Powered Smart Security Surveillance Robot with ML Based Real-time Threat Detection, Real time alerts with Event and Geolocation logging, Night Vision Capabilities and Mobile Integration for Remote Monitoring and Control",
       stacks: ["opencv", "haarcascade", "robot operating system", "python"],
     },
   ];
@@ -230,7 +230,7 @@ export default function Experience() {
                           d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                         />
                       </svg>
-                      <span>Website</span>
+                      <span>View</span>
                     </Link>
                   )}
                 </div>
