@@ -30,22 +30,22 @@ export default function Experience() {
     {
       name: "Software Delivery Engineer",
       url: "https://www.linkedin.com/in/alexisvalentino/",
-      position: "Whale Cloud - Alibaba Group",
+      position: "Whale Cloud, Alibaba Group",
       location: "Taguig City",
       date: "Dec 2024 - Present",
       description:
-        "I conduct regression testing and test reporting based on solution requirements specifications, using in-house tools to identify and track bugs, and collaborate with teams across DEV, SIT, and UAT to resolve issues and ensure smooth application delivery.",
-      stacks: ["Software Testing", "Test Reporting", "Application Delivery"],
+        "Perform software testing, track bugs, collaborate with teams, ensure smooth application delivery, contributing to successful implementations of new app features and AI deployments.",
+      stacks: ["Regression Testing", "System Integration", "UAT", "Test Reporting"],
     },
     {
-      name: "Information Technology Operations Associate",
+      name: "Technical Support",
       url: "https://www.linkedin.com/in/alexisvalentino/",
       position: "Accenture",
       location: "Mandaluyong City",
       date: "Jan 2024 - Dec 2024",
       description:
-        " I provided technical assistance for Microsoft Corporation, leveraging tools like ServiceNow, BeyondTrust, and Genesys Cloud to resolve system issues efficiently.",
-      stacks: ["Active Directory", "Technical Documentation", "Ticketing Systems", "Remote Desktop Support", "Cloud Applications", "Database Administration", "Technical Support", "Endpoint Security", "Account Management", "Access Control"],
+        "Provided technical support for Microsoft, resolving platform issues, managing IAM, overseeing software installation, and ensuring system security and performance.",
+      stacks: ["ServiceNow", "CyberArk", "Sailpoint", "MEM", "Citrix", "BeyondTrust", "Genesys Cloud", "Office365", "SAP", "Okta", "Intune"],
     },
     {
       name: "Software Developer",
@@ -54,7 +54,7 @@ export default function Experience() {
       location: "Remote",
       date: "May 2020 - Apr 2022",
       description: "Developed, tested, and maintained web applications across multiple projects, ensuring high performance and alignment with client expectations.",
-      stacks: ["Next.js 13", "React", "Tailwind", "Svelte", "MongoDB", "Python", "Hosting", "Project Management", "Version Control", "Client Relations", "Problem solving", "Attention to detail"],
+      stacks: ["Next.js 13", "React", "Tailwind", "Svelte", "MongoDB", "Python", "Project Management", "Version Control", "Client Relations"],
     },
 
   ];
